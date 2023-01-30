@@ -25,9 +25,20 @@ h4{
     cursor: pointer;
     padding: 2px;
 }
+a{
+    text-decoration: none;
+    color: #000;
+}
 .mainDiv{
-    margin: auto 100px;
+    margin: auto ;
     font-family: 'Roboto Mono', monospace;
+}
+.sec{
+    margin: 20px;
+}
+img{
+    height: 350px;
+    width: 300px;
 }
 .skillbox{
     display: flex;
