@@ -37,10 +37,31 @@ p{
     font-family: 'Russo One',monospace;
 }
 #profile_img {
+    position: absolute;
+    z-index: 1;
     width: 200px;
     height: 200px;
-    margin: 100px;
+    margin: 80px 50px;
 }
+#canvas {
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    top: 40px;
+    left: 50px;
+}
+#section3{
+    /* background-color: #219F94; */
+    margin: auto;
+}
+/* Rotating cube annimation   */
+canvas {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+}
+ /* End of animation code */
 .flex_row-rev_container{
     display: flex;
     flex-direction: row-reverse;
@@ -60,15 +81,6 @@ ul{
 }
 /* for section 2 */
 
-
- /* Rotating cube annimation   */
-
-canvas {
-    /* display: block; */
-    display: none;
-}
-
- /* End of animation code */
 .section2 {
     padding: 100px;
 }
@@ -91,7 +103,7 @@ canvas {
     width: 100%;
 }
 .bg_color{
-    background-color: var(--contact_bg);
+    /* background-color: var(--contact_bg); */
     border-radius: 10px;
     width: 50%;
     margin: auto;
