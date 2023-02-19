@@ -11,139 +11,40 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
-    <section class="section1">
-        <div class="container">
-            <div>
+    <section class="section">
+        <div class="main">
+            <div class="name_div">
                 <h1 id="h1">Hi, I'm Sachin Kinha</h1>
             </div>
-            <div class="flex_row-rev_container ">
-                <div id="section3" class="dis_img">
-                    <div class="animation" >
-                        <div><img id="profile_img" src="/myprofile.jpeg" alt="profile image"></div>
-                    </div>
+            <div class="container">
+                <div class="container_img">
+                    <div class="profile_img"><img id="profile_img" src="Images/myprofile.jpg" alt="profile image"></div>
                 </div>
-                <div class="flex_col_container">
-                    <div>
-                        <h2 class="heading">About me</h2>
-                    </div>
-                    <div class="dis_about">
-                        <p><i>I am 1st year student of Masters of Computer Application.<br><br>
-                            I did my graduation from KLP college (Maharshi Dayanand University).<br><br>
-                            Intrested in Problem solving and Competitive programming.
-                        </i></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section2">
-        <div class="container2">
-            <div>
-                <h2 class="heading">Skills</h2>
-            </div>
-            <div class="flex_row_container">
-                <!-- for soft skills -->
-
-                <div class="flex_row_equal">
-                    <div>
-                        <h3 class="sub_heading">Soft skills</h3>
-                    </div>
-                    <div>
-                        <ul>
-                            <li>- Leadership</li>
-                            <li>- Good communication (Hindi and English)</li>
-                            <li>- Teamwork</li>
-                            <li>- Management </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- for languages  -->
-
-                <div class="flex_row_equal">
-                    <div>
-                        <h3 class="sub_heading">Languages</h3>
-                    </div>
-                    <div class="flex_row_container">
-                        <div class="flex_row_equal">
-                            <ul class="mr-5">
-                                <li>- C</li>
-                                <li>- C++</li>
-                                <li>- Python</li>
-                                <li>- JavaScript</li>
-                            </ul>
+                <div class="container_about">
+                    <div class="overlap">
+                        <div >
+                            <h2 class="heading">Who I'm ?</h2>
                         </div>
-                        <div class="flex_row_equal">
-                            <ul>
-                                <li>- MongoDB</li>
-                                <li>- HTML</li>
-                                <li>- CSS</li>
-                                <li>- Mysql</li>
-                            </ul>
+                        <div class="dis_about">
+                            <p><i>I am 1st year student of Master of Computer Application.
+                                    Intrested in Problem solving, Competitive programmin and Web Development.
+                            </i></p>
                         </div>
                     </div>
                 </div>
-                <!-- for tech skills  -->
-
-                <div class="flex_row_equal">
-                    <div>
-                        <h3 class="sub_heading">Tech skills</h3>
-                    </div>
-                    <div>
-                        <ul>
-                            <li>- Problem solving</li>
-                            <li>- Competitive programming</li>
-                            <li>- Full Stack Web Development</li>
-                            <li>- Canva</li>
-                        </ul>
-                    </div>
-                </div>
+            </div>
+            <div class="footer">
+                <div class="sp"><span><a href="About-skills.html">Skills</a></span></div>
+                <div class="sp"><span><a href="projects.html">Projects</a></span></div>
+                <div class="sp"><span><a href="contact.html">Contact</a></span></div>
             </div>
         </div>
     </section>
-
-    <section id="section3">
-
-    </section>
-
-    <section class="section4">
-            <div class="bg_color px-8 pt-6 pb-8 mb-4">
-                <form id="form" target="_blank" action="https://formsubmit.co/codewithaisha@gmail.com" method="POST"
-                    enctype="multipart/form-data">
-                    <h2 class="heading">Hire Me</h2>
-
-                    <label class="block text-gray-700 text-sm font-bold mb-2" for="name"><span>Enter your
-                            name:</span></label>
-                    <input
-                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                        type="text" name="name" id="name" placeholder="Enter your name" autocomplete="off" required>
-                    <label class="block text-gray-700 text-sm font-bold mb-2" for="email"><span>Email:</span></label>
-                    <input
-                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                        type="email" name="email" id="email" placeholder="Enter your email" autocomplete="off" required>
-                    <label class="block text-gray-700 text-sm font-bold mb-2"
-                        for="subject"><span>Purpose of contact:</span></label>
-                    <input
-                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                        type="text" name="subject" id="subject" placeholder="Enter subject" autocomplete="off" required>
-                    <label class="block text-gray-700 text-sm font-bold mb-2"
-                        for="message"><span>Message:</span></label>
-                        <input type="hidden" name="_subject" value="New Portfolio Form submission!">
-                    <textarea
-                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-2"
-                        name="message" id="body" cols="15" rows="5" placeholder="// Type your message here"
-                        required></textarea>
-                    <button id="btn"
-                        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-                        type="submit">Send</button>
-                </form>
-            </div>
-    </section>
-    <script src="index.js"></script>
+    <script src="JS/index.js"></script>
 </body>
+
 </html>
